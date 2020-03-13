@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="395.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jogodavelha.FXMLDocumentController">
+    <children>
+      <Button fx:id="newGame" layoutX="42.0" layoutY="224.0" onAction="#getClick" prefHeight="26.0" prefWidth="232.0" text="New Game" />
+      	<Button fx:id="continuar" layoutX="42.0" layoutY="259.0" mnemonicParsing="false" onAction="#getClick" prefHeight="26.0" prefWidth="232.0" text="Continuar" />
+      	<Button fx:id="sair" layoutX="42.0" layoutY="292.0" mnemonicParsing="false" onAction="#getClick" prefHeight="26.0" prefWidth="232.0" text="Sair" />
+      	<Label fx:id="name1" layoutX="14.0" layoutY="59.0" text="Nome jogador 1:" />
+      	<TextField fx:id="localName1" layoutX="123.0" layoutY="51.0" prefHeight="33.0" prefWidth="181.0" />
+      	<ComboBox fx:id="nome" layoutX="383.0" layoutY="55.0" prefWidth="150.0" />
+      	<Label fx:id="infoNome" layoutX="104.0" layoutY="189.0" prefHeight="17.0" prefWidth="109.0" text="Informe um nome" visible="false" />
+      	<Label layoutX="427.0" layoutY="34.0" text="Jogos savos" />
+      	<Label fx:id="jogosSalvos" layoutX="392.0" layoutY="147.0" text="Não existem jogos salvos" visible="false" />
+      	<TextField fx:id="localName2" layoutX="123.0" layoutY="96.0" prefHeight="33.0" prefWidth="181.0" />
+      	<Label fx:id="name2" layoutX="14.0" layoutY="104.0" text="Nome jogador 2:" />
+    </children>
+</AnchorPane>
